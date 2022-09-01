@@ -1,0 +1,41 @@
+Projekt składa sie z 5 modułów oraz obrazów wejściowych. 
+Aby go uruchomić należy wszystkie pliki z folderu "kod" umieścić w nowym projekcie w IDE (np. pycharm ) lub w jednym folderze a następnie uruchomić
+moduł main.py.
+Należy mieć zainstalowane biblioteki pillow oraz numpy
+
+Parametry wejściowe dla poszczególnych operacji:
+
+1.Normalizacja - przyklad dla punktów (50,100), (100,160), (170,220)
+
+Uruchomienie main.py
+Wpisanie 1 ( enter )
+Wpisanie 1 (rgb) lub 2 (mono) 
+Wpisanie 50 100 100 160 170 220
+Obraz wynikowy pojawi się w tym samym folderze
+
+
+2.Filtracja - przyklad dla punktów maski 5x5
+
+Uruchomienie main.py
+Wpisanie 2 
+Wpisanie 1 (rgb) lub 2 (mono) 
+Wpisanie 2
+Wpisanie 5
+Wpisanie 5
+Obraz wynikowy pojawi się w tym samym folderze
+
+
+3.Otwarcie - przyklad dla punktów koła o promieniu 3
+
+Uruchomienie main.py
+Wpisanie 3 
+Wpisanie 1 (rgb) lub 2 (mono) 
+Wpisanie 3
+Obraz wynikowy pojawi się w tym samym folderze
+
+
+4.Etykietowanie
+
+Uruchomienie main.py
+Wpisanie 4
+Obraz wynikowy pojawi się w tym samym folderze
